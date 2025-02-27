@@ -8,6 +8,7 @@ import { TasksListComponent } from './tasks-list/tasks-list.component';
   selector: 'app-tasks',
   standalone: true,
   templateUrl: './tasks.component.html',
+  styleUrl:'./tasks.component.css',
   imports: [NewTaskComponent, TasksListComponent],
   // providers:[TasksService] - Element Injector
 })

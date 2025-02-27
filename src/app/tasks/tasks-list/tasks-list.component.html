@@ -10,10 +10,13 @@
   </p>
 </header>
 
-<ul>
-  @for (task of tasks; track task.id) {
-    <li>
-      <app-task-item [task]="task" />
-    </li>
-  }
-</ul>
+<div class="task-container">
+  <ul>
+    @for (task of tasks; track task.id) {
+      <li>
+        <app-task-item [task]="task" />
+      </li>
+    }
+  </ul>
+</div>
+

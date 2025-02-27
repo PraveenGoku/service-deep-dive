@@ -38,3 +38,10 @@ ul {
   margin: 0;
   padding: 0.5rem;
 }
+
+.task-container {
+  max-height: 400px; /* Adjust based on item height (3 items height) */
+  overflow-y: auto;  /* Enables scroll when content exceeds height */
+  border: 1px solid #ccc; /* Optional for visibility */
+  padding: 10px;
+}
